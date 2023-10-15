@@ -10,6 +10,9 @@ body{
     color: #444;
     background-color: #fff;
 }
+html{
+    scroll-behavior: smooth;
+}
 .container{
     width: 100%;
     max-width: 1160px;
@@ -198,4 +201,36 @@ body{
 .index-services-actions{
     display: flex;
     justify-content: center;
+}
+.cta{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color:#0EB4C1;
+    color: #fff;
+}
+.cta-heading{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 36px;
+    line-height: 1.2;
+    font-family:  "Open Sans Condensed","Arial",sans-serif;;
+}
+.cta-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-links-item:not(:last-child){
+    margin-right: 40px;
+}
+.main_outline{
+    background-color:transparent;
+    color:#fff;
+    border-color:#fff;
+}
+.main_outline:hover{
+    background-color: #DE2E54;
+    color: #fff;
+    border-color:transparent;
 }
