@@ -121,3 +121,31 @@ body{
 .sitenav-site-footer .sitenav-link:active{
     color: #fff;
 }
+.hero {
+    background-color:#0EB4C1;
+    color: #fff;
+}
+.hero-content{
+    width: 500px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.hero-heading{
+    margin-top: 0;
+    font-family: "Open Sans Condensed","Open Sans","Arial",sans-serif;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+.hero-text{
+    width: 440px;
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-img{
+    align-self: flex-end;
+}
